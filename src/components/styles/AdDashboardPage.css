@@ -1,0 +1,148 @@
+/* Wrapper to hold both sidebar and content */
+.dashboard-wrapper {
+    display: flex;
+    width: 100%; /* Ensure full width */
+}
+
+/* Hide Scrollbars */
+*::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+* {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+
+/* Dashboard container */
+.AdDashboardPage-container {
+    margin-left: 20vw; /* Matches sidebar width */
+    padding: 75px;
+    width: calc(100% - 20vw); /* Adjust width dynamically */
+    min-height: 100vh;
+    background-color: #bfa9df;
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.671);
+    transition: all 0.3s ease;
+    background-color: white;
+    cursor: pointer;
+    height: 250px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 30px !important;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+}
+
+.card-text-1 {
+    font-size: 29px !important;
+    font-weight: bold !important;
+    display: flex;
+    justify-content: center;
+}
+
+/* Center the "Total Appointment" card */
+.center-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto; /* Centers horizontally */
+    width: 100%; /* Ensure full width */
+}
+
+/* ✅ Responsive Styles for 1208px to 1445px */
+@media (min-width: 1208px) and (max-width: 1445px) {
+    .adsidenav-container {
+        width: 18vw !important;
+    }
+
+    .AdDashboardPage-container {
+        margin-left: 18vw !important;
+        width: 82vw !important;
+    }
+
+    .card {
+        height: 160px !important;
+        padding: 15px !important;
+    }
+
+    .card-title {
+        font-size: 29px !important;
+    }
+
+    .card-text-1 {
+        font-size: 29px !important;
+        font-weight: bold !important;
+    }
+    .center-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto; /* Centers horizontally */
+    width: 100%; /* Ensure full width */
+}
+}
+
+/* ✅ Responsive Styles for 768px to 988px */
+@media (min-width: 768px) and (max-width: 988px) {
+    .adsidenav-container {
+        width: 25vw !important; /* Adjust sidebar width */
+    }
+
+    .AdDashboardPage-container {
+        margin-left: 25vw !important; /* Adjust content width */
+        width: calc(100% - 25vw) !important;
+        padding: 40px !important; /* Reduce padding */
+    }
+
+    .card {
+        height: 180px !important;
+        padding: 15px !important;
+    }
+
+    .card-title {
+        font-size: 24px !important;
+    }
+
+    .card-text-1 {
+        font-size: 25px !important;
+    }
+}
+
+/* ✅ Responsive Styles for 425px to 320px */
+@media (max-width: 425px) {
+    .adsidenav-container {
+         width: 50vw;
+    }
+
+    .AdDashboardPage-container {
+        margin-left: 40vw;
+        width: calc(100% - 40vw);
+        padding: 10px;
+    }
+
+    .card-title {
+        font-size: 26px !important;
+    }
+
+    .card-text {
+        font-size: 20px !important;
+    }
+}

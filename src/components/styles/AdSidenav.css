@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Sidebar Container */
+  .adsidenav-container {
+    height: 100vh !important;
+    background-color: #7E5CAD !important;
+    width: 20vw !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding-top: 20px !important;
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    overflow-y: auto !important;
+  }
+  
+  /* Admin Panel Title */
+  .adsidenav-title {
+    font-size: 30px !important;
+    color: white !important;
+    margin-bottom: 30px !important;
+    white-space: nowrap !important;
+    font-weight: bold !important;
+
+  }
+  
+  /* Sidebar Section (Dashboard, Books, etc.) */
+  .sidebar-section {
+    display: flex !important;  /* Flexbox for horizontal layout */
+    align-items: center !important;  /* Align items vertically */
+    gap: 10px !important;  /* Space between icon and text */
+    padding: 18px 0 !important;
+    width: 80% !important;
+    border-radius: 8px !important;
+    transition: background-color 0.3s !important;
+    cursor: pointer !important;
+}
+
+  
+  /* Hover Effect */
+  .sidebar-section:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+  
+  /* Icon */
+  
+  .sidebar-icon {
+    display: flex !important;  /* Ensures the icon container behaves like inline-flex */
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 24px !important;
+    color: white !important;
+ }
+  
+  /* Text */
+  .sidebar-text {
+    font-size: 16px !important;
+    color: white !important;
+    font-weight: bold !important;
+  }
+  
+  /* Logout Specific */
+  .logout {
+    margin-top: auto !important;
+    margin-bottom: 10px !important;
+  }
+/*   
+  .logout:hover {
+    background-color: rgb(255, 51, 51) !important;
+  } */
+ 
+@media (min-width: 426px) and (max-width: 767px) {
+  .adsidenav-container {
+    width: 30vw !important; /* Adjust sidebar width for medium screens */
+    padding-top: 15px !important;
+  }
+
+  .adsidenav-title {
+    font-size: 20px !important; /* Slightly reduce title size */
+    margin-bottom: 25px !important;
+  }
+
+  .sidebar-section {
+    gap: 8px !important; /* Reduce spacing */
+    padding: 12px 0 !important;
+    width: 85% !important; /* Make sections fit well */
+  }
+
+  .sidebar-icon {
+    font-size: 20px !important; /* Adjust icon size */
+  }
+
+  .sidebar-text {
+    font-size: 13px !important; /* Make text readable but compact */
+  }
+}
+
+
+
+  /* ✅ Responsive Styles (425px to 320px) */
+  @media (max-width: 425px) {
+    .adsidenav-container {
+      width: 40vw !important; /* Sidebar takes 70% of the screen width */
+      /* padding-top: 10px !important; */
+    }
+  
+    .adsidenav-title {
+      font-size: 20px !important; /* Smaller title */
+      margin-bottom: 20px !important;
+    }
+  
+    .sidebar-section {
+      gap: 8px !important;
+      padding: 8px 0 !important;
+    }
+  
+    .sidebar-icon {
+      font-size: 18px !important; /* Smaller icons */
+    }
+  
+    .sidebar-text {
+      font-size: 13px !important;
+    }
+  }
+  

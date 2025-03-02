@@ -1,0 +1,76 @@
+/* ✅ Page Layout */
+.add-new-doctor-page {
+    margin-left: 18vw !important;
+    padding: 40px 20px;
+    width: 82vw !important;
+    position: fixed !important;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0; right: 0; bottom: 0;
+    overflow-y: auto;
+}
+
+/* ✅ Form Container */
+.form-container {
+    width: 100%;
+    max-width: 450px !important;
+    height: 550px !important;
+    background: white !important;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.form-title { font-size: 28px !important; font-weight: bold; text-align: center; color:black; }
+
+/* ✅ Form Styling */
+.form-group { margin-bottom: 15px; }
+.form-group label { font-size: 16px; font-weight: 500; color: #555; }
+.form-group input, .form-group textarea {
+    width: 100%; padding: 10px 12px;
+    border: 1px solid #ccc !important;
+    border-radius: 6px; font-size: 16px;
+    outline: none; transition: border 0.3s;
+    background-color: white;
+    color: black;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #7E5CAD !important;
+}
+
+.submit-btn {
+    width: 100%; padding: 12px;
+    font-size: 18px; font-weight: bold;
+    color: white; background: #7E5CAD !important;
+    border-radius: 8px; cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover { background: white !important; color: #7E5CAD !important; }
+
+/* ✅ Responsive Design */
+@media (min-width: 989px) and (max-width: 1171px) {
+    .add-new-doctor-page { margin-left: 20vw !important; width: 80vw !important; }
+    .form-container { max-width: 600px !important; padding: 35px 30px !important; }
+    .form-title { font-size: 28px !important; }
+}
+
+@media (min-width: 768px) and (max-width: 988px) {
+    .add-new-doctor-page { width: 75vw !important; }
+    .form-container { max-width: 500px !important; padding: 30px 25px !important; }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+    .add-new-doctor-page { width: 70vw !important; }
+    .form-container { max-width: 450px !important; padding: 25px 20px !important; }
+}
+
+@media (max-width: 425px) {
+    .add-new-doctor-page { width: 60vw !important; padding: 15px 10px; }
+    .form-container { max-width: 340px !important; padding: 20px !important; }
+    .form-title, .form-group label, .form-group input, .submit-btn { font-size: 14px !important; }
+}
