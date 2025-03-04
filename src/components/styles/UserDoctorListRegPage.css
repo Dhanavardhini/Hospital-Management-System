@@ -10,7 +10,7 @@
 
 /* ✅ Background Image for Hospital Theme */
 .UserDoctorListRegPage-container {
-    background-image: url(../../assets/hospital_bg.jpg);
+    background-image: url(../../assets/userappointment.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -21,8 +21,8 @@
     position: fixed;
     top: 20px;
     right: 20px;
-    background-color: white !important;
-    color: black;
+    background-color: #FF4545 !important;
+    color:white;
     border: none !important;
     padding: 10px 15px;
     cursor: pointer;
@@ -32,9 +32,9 @@
     border-radius: 5px;
 }
 .back-btn-1:hover {
-    background-color: #7E5CAD !important;
-    color: white !important;
-    border: 2px solid #7E5CAD !important;
+    background-color:white !important;
+    color: #FF4545 !important;
+    border: 2px solid #FF4545 !important;
     font-weight: bold;
 }
 
@@ -43,9 +43,9 @@
     width: 100%;
     max-width: 400px;
     padding: 20px;
-    background: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 10px rgb(17, 2, 2) !important;
+    background: rgba(255, 255, 255, 0.61) !important;
     text-align: center;
     height: 600px !important;
     overflow-y: auto;

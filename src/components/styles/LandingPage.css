@@ -12,25 +12,25 @@
     align-items: center;
     height: 100vh; /* Full height of the viewport */
     width: 100vw; /* Full width of the viewport */
-    /* background-image: url(../../assets/Landing.jpg);
+    background-image: url(../../assets/land.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;  */
-    background-color: aqua;
+    background-position: center; 
+    /* background-color: aqua; */
     padding: 20px;
   }
   
     
     /* Responsive Card */
     .LandingCard {
-      background-color:white !important;
+      box-shadow: 0px 4px 10px rgb(17, 2, 2) !important;
+      background: rgba(255, 255, 255, 0.61) !important;
       width: 100%;
       max-width: 500px;
       text-align: center;
-      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.623)!important;
       border-radius: 15px!important;
       padding: 20px;
-    }
+    } 
     
     /* Centering the Buttons */
     .card-actions {
@@ -40,6 +40,11 @@
       gap: 10px;
     }
     
+.land-para{
+  color: rgba(34, 13, 13, 0.712);
+  font-size: 16px !important;
+}
+
     /* Custom Button Styling */
     /* .custom-button {
       background-color:#7E5CAD !important ;
@@ -52,16 +57,18 @@
     } */
     .custom-button,.custom-button-1 {
       background-color: white !important;
-      color: #7E5CAD !important;
-      border: 2px solid #7E5CAD !important;
+      color: #FF4545 !important;
+      border: 2px solid #FF4545  !important;
       padding: 8px 16px !important;
       font-size: 14px !important;
       border-radius: 5px !important;
       transition: 0.3s ease-in-out !important;
+
     }
     .custom-button-1:hover,.custom-button:hover {
-      background-color: #7E5CAD !important;
+      background-color: #FF4545 !important;
       color: white!important;
-      border: 2px solid #7E5CAD !important;
+      border: 2px solid #FF4545  !important;
+
     }
     

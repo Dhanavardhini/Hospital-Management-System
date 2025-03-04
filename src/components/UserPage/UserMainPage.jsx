@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/UserMainPage.css"; // Import Custom CSS
-import hospitalImage from "../../assets/img 1.jpg"; // Replace with a relevant hospital image
+import hospitalImage from "../../assets/Staticimg.png"; // Replace with a relevant hospital image
 
 function UserMainPage() {
   const navigate = useNavigate();
@@ -29,7 +29,7 @@ function UserMainPage() {
           <div className="col-md-5 col-sm-6">
             <div className="card text-center shadow card-2">
               <div className="card-body">
-                <img src={hospitalImage} alt="Hospital" className="img-fluid rounded" />
+                <img src={hospitalImage} alt="Hospital" className="img-fluid-1 " />
               </div>
               <div className="card-footer">
                 <button className="btn" onClick={() => navigate("/doctors-list")}>

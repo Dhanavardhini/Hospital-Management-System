@@ -48,10 +48,10 @@ export default function ManageDoctorPage() {
   return (
     <>
       <AdSidenav />
-      <div className="manage-doctor-container">
+      <div className="manage-doctor-container-manage">
         <h2>Doctor Management</h2>
-        <div className="table-wrapper">
-          <table className="doctor-table">
+        <div className="table-wrapper-manage">
+          <table className="doctor-table-manage">
             <thead>
               <tr>
                 <th>S.No</th>

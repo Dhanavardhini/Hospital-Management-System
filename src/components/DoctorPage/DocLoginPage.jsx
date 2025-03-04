@@ -28,17 +28,17 @@ export default function DocLoginPage() {
   };
 
   return (
-    <div className="login-container">
-      <Card className="login-card">
-        <Typography variant="h5" className="login-title">
+    <div className="Doc-login-container">
+      <Card className="Doc-login-card">
+        <Typography variant="h5" className="Doc-login-title">
           Doctor Login
         </Typography>
 
-        <form onSubmit={handleSubmit} className="login-form">
-          <div className="form-group">
-            <label className="form-label">Email Id</label>
+        <form onSubmit={handleSubmit} className="Doc-login-form">
+          <div className="Doc-form-group">
+            <label className="Doc-form-label">Email Id</label>
             <input
-              className="input-field"
+              className="Doc-input-field"
               placeholder="Enter Email "
               type="text"
               name="emailid"
@@ -47,10 +47,10 @@ export default function DocLoginPage() {
             />
           </div>
 
-          <div className="form-group">
-            <label className="form-label">Password</label>
+          <div className="Doc-form-group">
+            <label className="Doc-form-label">Password</label>
             <input
-              className="input-field"
+              className="Doc-input-field"
               placeholder="Enter Password"
               type="password"
               name="password"
@@ -59,7 +59,7 @@ export default function DocLoginPage() {
             />
           </div>
 
-          <Button type="submit" className="login-button" fullWidth>
+          <Button type="submit" className="Doc-login-button" fullWidth>
             Login
           </Button>
 

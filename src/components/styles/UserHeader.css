@@ -5,7 +5,7 @@
   left: 0;
   width: 100vw; /* Full Width */
   height: 70px;
-  background: #6A5ACD; /* Soft Purple Background */
+  background: #FF4545; /* Soft Purple Background */
   color: white;
   display: flex;
   justify-content: space-between;
@@ -42,7 +42,7 @@
 }
 
 .header-nav span:hover {
-  color: #FFD700; /* Gold Highlight */
+  color: black; /* Gold Highlight */
 }
 
 /* ✅ Logout Button Styling */
@@ -76,7 +76,7 @@
     top: 70px;
     left: 0;
     width: 100%;
-    background: #6A5ACD;
+    background: #FF4545;
     text-align: center;
     padding: 15px 0;
   }
@@ -94,7 +94,7 @@
   }
 
   .header-nav span:hover {
-    background: #483D8B; /* Darker shade */
+    background: #eb3434d2 ; /* Darker shade */
     color: white;
   }
 }

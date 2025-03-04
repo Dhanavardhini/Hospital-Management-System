@@ -22,7 +22,7 @@
     padding: 75px;
     width: calc(100% - 20vw); /* Adjust width dynamically */
     min-height: 100vh;
-    background-color: #bfa9df;
+    background-color: #e2bebec0;
 }
 
 /* Card Styles */

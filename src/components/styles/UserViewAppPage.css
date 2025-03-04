@@ -1,7 +1,7 @@
 /* ✅ Container Styling */
 .user-appointment-container {
     margin-top: 4vw;
-    background-color: #e3f2fd;
+    background-color:  #e2bebec0 ;
   }
   .user-appointment-container-1 {
     padding: 40px;
@@ -40,7 +40,7 @@
   }
   
   .appointment-table th {
-    background-color: #007bff;
+    background-color: #f56363;
     color: white;
     font-weight: bold;
   }
@@ -51,7 +51,7 @@
   
   /* ✅ Cancel Button */
   .cancel-btn {
-    background-color: #6f35dc;
+    background-color: #2d61f0;
     color: white !important;
     border: none !important;
     padding: 8px 12px;

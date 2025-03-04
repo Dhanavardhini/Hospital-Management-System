@@ -39,7 +39,7 @@ export default function UserDoctorListRegPage() {
       return;
     }
 
-    alert("Appointment Booked Successfully!");
+    alert("Your request has been submitted. Please wait for approval!");
     navigate("/doctors-list"); // Navigate after submission
   };
 
@@ -123,7 +123,7 @@ export default function UserDoctorListRegPage() {
               <input type="time" name="appointmentTime" onChange={handleChange} required />
             </div>
 
-            <div className="form-group">
+            {/* <div className="form-group">
               <label>Payment Method</label>
               <select name="paymentMethod" onChange={handleChange} required>
                 <option value="">Select Payment Method</option>
@@ -131,9 +131,9 @@ export default function UserDoctorListRegPage() {
                 <option value="Debit Card">Debit Card</option>
                 <option value="Cash">Cash</option>
               </select>
-            </div>
+            </div> */}
 
-            <button type="submit" className="submit-btn">Book Appointment</button>
+            <button type="submit" className="submit-btn" >Book Appointment</button>
           </form>
         </div>
       </div>

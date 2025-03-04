@@ -2,7 +2,7 @@
 .userdoctorlistpage-container {
     width: 100vw !important;
     margin-top: 8vh;
-    background-color: #bfa9df !important;
+    background-color: #e2bebec0  !important;
 }
 
 /* ✅ Doctor List Grid */
@@ -58,16 +58,22 @@
 }
 
 .book-btn {
-    background-color: #7E5CAD !important;
+    background-color: #FF4545 !important;
+}
+
+.book-btn:hover {
+    border: 1px solid #FF4545 !important;
+    color:#FF4545 !important;
+    background-color: white !important;
 }
 
 .cancel-btn-1 {
-    border: 1px solid #d32f2f !important;
-    color: #d32f2f !important;
+    border: 1px solid #FF4545 !important;
+    color: #FF4545 !important;
 }
 
 .cancel-btn-1:hover {
-    background-color: #d32f2f !important;
+    background-color: #FF4545 !important;
     color: white !important;
 }
 

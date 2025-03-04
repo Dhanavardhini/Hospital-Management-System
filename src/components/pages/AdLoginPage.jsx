@@ -30,26 +30,26 @@ export function AdLoginPage() {
   };
 
   return (
-    <div className="login-container-1">
-      <Card className="login-card">
-        <Typography variant="h5" className="login-title">
+    <div className="login-container-ad">
+      <Card className="login-card-ad">
+        <Typography variant="h5" className="login-title-ad">
           Admin Login
         </Typography>
 
-        <form onSubmit={handleSubmit} className="login-form">
-          <div className="form-group">
-            <label className="form-label" >Email Id</label>
-            <input  className="input-1"
+        <form onSubmit={handleSubmit} className="login-form-ad">
+          <div className="form-group-ad">
+            <label className="form-label-ad" >Email Id</label>
+            <input  className="input-1-ad"
               placeholder="Enter Email"
               type="email"
               name="email" required
               onChange={handleChange} />
           </div>
 
-          <div className="form-group">
-            <label className="form-label">Password</label>
+          <div className="form-group-ad">
+            <label className="form-label-ad">Password</label>
             <input
-              className="input-2"
+              className="input-2-ad"
               placeholder="Enter Password"
               type="password"
               name="password"
@@ -59,7 +59,7 @@ export function AdLoginPage() {
           </div>
 
 
-          <Button type="submit" className="login-button" fullWidth>
+          <Button type="submit" className="login-button-ad" fullWidth>
             Login
           </Button>
         </form>

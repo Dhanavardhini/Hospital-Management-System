@@ -30,7 +30,7 @@ export default function UserDoctorListPage() {
 
   // Function to handle appointment booking
   const handleBookAppointment = () => {
-    alert("Your appointment has been booked!");
+    // alert("Your appointment has been booked!");
     navigate("/doctors-list-reg");
   };
 

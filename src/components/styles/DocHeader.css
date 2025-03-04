@@ -5,7 +5,7 @@
     left: 0;
     width: 100vw; /* Full Width */
     height: 70px;
-    background: #7E5CAD; /* Blue Background */
+    background: #ff4545f1!important; /* Blue Background */
     color: white;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@
   }
   
   .header-nav span:hover {
-    color: #ffcc00; /* Highlight on Hover */
+    color: black !important; /* Highlight on Hover */
   }
   
   /* ✅ Logout Button Styling */
@@ -74,7 +74,7 @@
       top: 60px;
       left: 0;
       width: 100vw !important;
-      background: #007bff;
+      background: #f04343  !important;
       text-align: center;
       padding: 15px 0;
     }

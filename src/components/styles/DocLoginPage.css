@@ -1,71 +1,65 @@
-.login-container {
+.Doc-login-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: tan;
-    /* background-image: url(../../assets/reg.jpg);
+    /* background-color: tan; */
+    background-image: url(../../assets/Doc-login.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; Ensures proper centering */
+    background-position: center;
   }
   
-  .login-card {
+  .Doc-login-card {
     padding: 30px;
     width: 350px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    background: white;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0) !important;
+    background: rgba(255, 255, 255, 0.61) !important;
     border-radius: 10px;
   }
   
-  .login-title {
+  .Doc-login-title {
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 26px !important;
-    font-weight: bold;
+    margin-bottom: 20px !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
   }
   
-  .form-group {
+  .Doc-form-group {
     margin-bottom: 15px;
   }
   
-  .form-label {
-    font-size: 14px;
+  .Doc-form-label {
+    font-size: 18px !important;
     font-weight: 600;
     display: block;
     margin-bottom: 5px;
   }
   
-  .input-field {
+  .Doc-input-field {
     width: 100%;
     padding: 10px;
     font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-bottom: 10px !important;
+    outline: none;
   }
   
-  .login-button {
+  .Doc-login-button {
     margin-top: 10px;
-    background-color: #7E5CAD !important;
+    background-color: #FF4545 !important;
     color: white !important;
-    font-size: 16px;
+    font-size: 16px !important;
     padding: 10px;
     border-radius: 5px;
   }
+
   
-  .register-text {
-    text-align: center;
-    margin-top: 15px;
-    font-size: 14px;
-  }
-  
-  .register-link {
-    color: #7E5CAD;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  .register-link:hover {
-    text-decoration: underline;
+  .Doc-login-button:hover {
+    border:2px solid#FF4545 !important;
+    background-color: white !important;
+    color: #FF4545 !important;
+    font-weight: bold !important;
   }
   

@@ -38,7 +38,7 @@ export function UserLoginPage() {
           <div className="form-group">
             <label className="form-label">Email Id</label>
             <input
-              className="input-field"
+              className="input-field-1"
               placeholder="Enter Email "
               type="text"
               name="emailid"
@@ -50,7 +50,7 @@ export function UserLoginPage() {
           <div className="form-group">
             <label className="form-label">Password</label>
             <input
-              className="input-field"
+              className="input-field-1"
               placeholder="Enter Password"
               type="password"
               name="password"

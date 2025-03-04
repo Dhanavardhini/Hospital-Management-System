@@ -14,10 +14,10 @@ export function LandingPage() {
     <div className="landing-container">
       <Card className="LandingCard" >
         <CardContent>
-          <Typography gutterBottom variant="h4" component="div">
+          <Typography gutterBottom variant="h4" component="div" className='land-title'>
           Hospital Management System
           </Typography>
-          <Typography variant="body2" sx={{ color: 'text.secondary',fontSize:"15px" }}>
+          <Typography variant="body2"  className='land-para' >
             A seamless solution for efficient hospital administration and patient care.
           </Typography>
         </CardContent>

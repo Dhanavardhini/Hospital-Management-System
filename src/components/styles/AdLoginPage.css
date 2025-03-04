@@ -6,34 +6,34 @@
   }
   
   /* Centering the Login Form */
-  .login-container-1 {
+  .login-container-ad {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full height of the viewport */
     width: 100vw; /* Full width of the viewport */
-    /* background-image: url(../../assets/Admincrt.jpg);
+    background-image: url(../../assets/AdminLogin.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; Ensures proper centering */
-    background-color: rgb(0, 255, 170);
+    background-position: top;
+    /* background-color: rgb(0, 255, 170); */
     padding: 20px;
   }
   
   /* Responsive Card */
-  .login-card {
-    background-color: white !important; /* Dark background with opacity */
+  .login-card-ad {
     padding: 20px;
     max-width: 370px !important;
     width: 90%;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.158)!important;
+    box-shadow: 0px 4px 10px rgb(17, 2, 2) !important;
+    background: rgba(255, 255, 255, 0.61) !important;
     border-radius: 15px!important;
     /* backdrop-filter: blur(10px); */
   }
   
   /* Title */
-  .login-title {
+  .login-title-ad {
     margin-bottom: 15px !important;
     color: black !important;
     font-size: 33px !important;
@@ -42,18 +42,18 @@
 
   
   /* Form */
-  .login-form {
+  .login-form-ad {
     margin-top: 5px;
   }
   
   /* Form group (Label + Input) */
-  .form-group {
+  .form-group-ad {
     margin-bottom: 25px !important;
     text-align: left !important;
   }
   
-  .input-1,
-  .input-2 {
+  .input-1-ad,
+  .input-2-ad {
       width: 100% !important;
       height: 40px !important;
       padding: 10px !important;
@@ -66,15 +66,15 @@
   }
   
   /* Apply red outline only when input is focused (clicked) */
-  .input-1:focus,
-  .input-2:focus {
-      outline: 0px solid red !important; /* ✅ Red outline on focus */
-      border-color: red !important; /* (Optional) Red border when focused */
+  .input-1-ad:focus,
+  .input-2-ad:focus {
+      outline: 0px solid #ff4545f1 !important; /* ✅ Red outline on focus */
+      border-color: #ff4545f1 !important; /* (Optional) Red border when focused */
   }
   
   /* Prevent autofill background color change */
-  .input-1:-webkit-autofill,
-  .input-2:-webkit-autofill {
+  .input-1-ad:-webkit-autofill,
+  .input-2-ad:-webkit-autofill {
       background-color: white !important;
       color: black !important;
       -webkit-box-shadow: 0 0 0px 1000px white inset !important;
@@ -84,17 +84,17 @@
 
 
   /* Labels aligned to the left and light black */
-  .form-label {
+  .form-label-ad {
     display: block;
      font-size: 16px;
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.781) !important;
+    color: rgba(0, 0, 0, 0.801) !important;
     margin-bottom: 10px;
     }
   
   /* Login Button */
-  .login-button {
-    background-color:#7E5CAD!important;
+  .login-button-ad {
+    background-color:#FF4545!important;
     color: white !important;
     padding: 10px !important;
     font-size: 16px !important;
@@ -104,8 +104,8 @@
     text-transform: capitalize !important;
   }
   
-  .login-button:hover {
+  .login-button-ad:hover {
     background-color: white !important;
-    color:#7E5CAD !important;
-    border: 2px solid #7E5CAD !important;
+    color:#FF4545 !important;
+    border: 2px solid #FF4545!important;
   }

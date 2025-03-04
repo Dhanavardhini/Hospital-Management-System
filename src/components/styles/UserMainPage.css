@@ -1,6 +1,6 @@
 /* ✅ Default Styling */
 .usermainpage-contain {
-    background-color: #bfa9df !important;
+    background-color: #e2bebec0 !important;
     margin-top: 7vh !important;
     height: 83vh !important;
   }
@@ -30,13 +30,13 @@
     font-size: 25px;
   }
   .btn{
-    background-color: #572a9c !important;
+    background-color: #FF4545 !important;
     color:white !important;
   }
   .btn:hover{
     background-color: white !important;
-    color: #572a9c !important;
-    border: 2px solid  #572a9c !important;
+    color: #FF4545 !important;
+    border: 2px solid  #FF4545 !important;
   }
   .card-text {
     font-size: 15px !important;
@@ -45,7 +45,7 @@
   /* Ensure image fits properly */
   .card-body img {
     max-height: 200px !important;
-    object-fit: cover;
+    /* object-fit: cover; */
     width: 100%;
   }
   
@@ -53,7 +53,7 @@
   /* ✅ Fix for 1024px - 1040px */
   @media (min-width: 1024px) and (max-width: 1440px) {
     .usermainpage-contain {
-      background-color: #bfa9df;
+      background-color: #e2bebec0;
       margin-top: 10vh;
       min-height: 90vh !important; /* Ensure content fits dynamically */
     }
@@ -74,8 +74,9 @@
       height: auto !important; /* Allow natural height */
     }
   
-    .card-body img {
+    .img-fluid-1 {
       max-height: 150px !important; /* Increase image size */
+      width:500px !important ;
     }
   
     .card-footer {
@@ -85,7 +86,7 @@
   
   @media (min-width: 426px) and (max-width: 767px) {
     .usermainpage-contain {
-      background-color: #bfa9df;
+      background-color: #e2bebec0;
       margin-top: 5vh !important;
       height: 100vh;
     }
@@ -140,7 +141,7 @@
   /* ✅ Responsive: Mobile (425px to 320px) */
   @media (max-width: 425px) {
     .usermainpage-contain {
-      background-color: #bfa9df;
+      background-color: #e2bebec0;
       height: 77vh !important;
     }
   
@@ -188,7 +189,7 @@
   
   @media (min-width: 768px) and (max-width: 1023px) {
     .usermainpage-contain {
-      background-color: #bfa9df;
+      background-color: #e2bebec0;
       margin-top: 10vh !important;
       min-height: 90vh; /* Ensure content fits dynamically */
     }
@@ -209,8 +210,8 @@
       height: auto !important; /* Allow natural height */
     }
   
-    .card-body img {
-      max-height: 150px !important; /* Increase image size */
+    .img-fluid-1 {
+      max-height: 150px !important;/* Increase image size */
     }
   
   

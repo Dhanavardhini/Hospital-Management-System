@@ -7,7 +7,7 @@ export default function AddNewDoctorPage() {
     <>
       <AdSidenav />
       <div className="add-new-doctor-page">
-        <div className="form-container">
+        <div className="form-container-1">
           <h2 className="form-title">Add New Doctor</h2>
 
           <form className="doctor-form">
@@ -32,8 +32,8 @@ export default function AddNewDoctorPage() {
             </div>
 
             <div className="form-group">
-              <label>Passward</label>
-              <input type="passward" placeholder="Enter the Passward" required />
+              <label>Password</label>
+              <input type="passward" placeholder="Enter the Password" required />
             </div>  
             
             <div className="form-group">
