@@ -1,0 +1,159 @@
+/* ✅ Main Container */
+.userdoctorlistpage-container {
+    width: 100vw !important;
+    margin-top: 8vh;
+    background-color: #bfa9df !important;
+}
+
+/* ✅ Doctor List Grid */
+.userdoctorlistpage-container-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 Cards per Row */
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+    margin-left: 9vw; 
+}
+
+/* ✅ Doctor Card Styling */
+.doctor-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    width: 100%;
+    max-width: 300px;
+    background: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+}
+
+/* ✅ Doctor Name */
+.doctor-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* ✅ Doctor Specialty */
+.doctor-specialty {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+/* ✅ Button Styling */
+.button-container {
+    display: flex;
+    gap: 10px !important;
+    justify-content: center !important;
+}
+
+.book-btn {
+    background-color: #7E5CAD !important;
+}
+
+.cancel-btn-1 {
+    border: 1px solid #d32f2f !important;
+    color: #d32f2f !important;
+}
+
+.cancel-btn-1:hover {
+    background-color: #d32f2f !important;
+    color: white !important;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 1024px) {
+    .userdoctorlistpage-container-1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .userdoctorlistpage-container-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .doctor-card {
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .userdoctorlistpage-container-1 {
+      grid-template-columns: repeat(1, 1fr); /* 1 Column for Mobile Screens */
+    }
+    .doctor-card {
+        max-width: 100%;
+        margin: auto;
+    }
+  }
+  @media (max-width: 320px) {
+    .userdoctorlistpage-container-1 {
+        grid-template-columns: repeat(1, 1fr); /* Ensure single column */
+        justify-content: center;
+    }
+
+    .doctor-card {
+        width: 90%; /* Make the card responsive */
+        max-width: 280px; /* Prevent too large cards */
+        margin: 10px auto; /* Centering */
+        padding: 12px; /* Adjust padding for spacing */
+        text-align: center;
+    }
+
+    .doctor-card img {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Keep aspect ratio */
+        border-radius: 8px;
+    }
+
+    .doctor-name {
+        font-size: 16px; /* Adjust text size */
+        font-weight: bold;
+    }
+
+    .doctor-specialty {
+        font-size: 14px; /* Adjust specialty text */
+        color: gray;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column; /* Stack buttons on small screens */
+        gap: 8px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .book-btn {
+        width: 100%; /* Make button full width */
+        background-color: #7E5CAD !important;
+        color: white !important;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .cancel-btn-1 {
+        width: 100%; /* Make button full width */
+        border: 1px solid #d32f2f !important;
+        color: #d32f2f !important;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .cancel-btn-1:hover {
+        background-color: #d32f2f !important;
+        color: white !important;
+    }
+}

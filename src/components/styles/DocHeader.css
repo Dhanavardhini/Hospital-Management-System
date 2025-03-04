@@ -1,0 +1,127 @@
+/* ✅ Fixed Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full Width */
+    height: 70px;
+    background: #7E5CAD; /* Blue Background */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  /* ✅ Project Title */
+  .header-title {
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .lib-icon{
+    font-size: 29px !important;
+    margin-right: 8px !important;
+  }
+
+  /* ✅ Navigation Menu */
+  .header-nav {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .header-nav span {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .header-nav span:hover {
+    color: #ffcc00; /* Highlight on Hover */
+  }
+  
+  /* ✅ Logout Button Styling */
+  .logout1 {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .logout1:hover {
+    color: black!important;
+    background-color: none !important;
+  }
+  
+  /* ✅ Hide Menu Icon for Large Screens */
+  .menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  /* ✅ Responsive: Show Menu Icon Below 768px */
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    /* Hide Navbar by Default on Mobile */
+    .header-nav {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100vw !important;
+      background: #007bff;
+      text-align: center;
+      padding: 15px 0;
+    }
+  
+    /* Show Navbar When Menu is Open */
+    .header-nav.open {
+      display: flex;
+    }
+  
+    .header-nav span {
+      padding: 10px;
+      font-size: 18px;
+      display: block;
+      width: 100%;
+    }
+  
+    .header-nav span:hover {
+      background: #0056b3;
+      color: white;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .header {
+        width: 102vw !important; /* Full width */
+        height: 60px; /* Slightly smaller height */
+        padding: 0 15px; /* Adjust padding */
+    }
+
+    .header-title {
+        font-size: 18px; /* Reduce title font size */
+    }
+
+    .menu-icon {
+        font-size: 26px; /* Adjust menu icon size */
+    }
+
+    .header-nav.open {
+        display: flex;
+    }
+
+    .header-nav span {
+        font-size: 16px;
+        padding: 12px;
+        display: block;
+        width: 100%;
+    }
+}
+
+  

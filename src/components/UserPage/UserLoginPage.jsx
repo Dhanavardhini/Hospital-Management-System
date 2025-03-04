@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Button, Card, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import "../styles/DocLoginPage.css";
+import "../styles/UserLoginPage.css";
 
-export default function DocLoginPage() {
+export function UserLoginPage() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     emailid: "",
@@ -23,15 +23,15 @@ export default function DocLoginPage() {
       return;
     }
 
-    alert("Doctor Login successful!");
-    navigate("/doctor-dashboard"); // ✅ Navigate to user dashboard
+    alert("User Login successful!");
+    navigate("/userdashboard"); // ✅ Navigate to user dashboard
   };
 
   return (
     <div className="login-container">
       <Card className="login-card">
         <Typography variant="h5" className="login-title">
-          Doctor Login
+          User Login
         </Typography>
 
         <form onSubmit={handleSubmit} className="login-form">
@@ -63,7 +63,12 @@ export default function DocLoginPage() {
             Login
           </Button>
 
-          
+          <Typography className="register-text">
+            Don't have an account?{" "}
+            <span className="register-link" onClick={() => navigate("/user-register")}>
+              Register
+            </span>
+          </Typography>
         </form>
       </Card>
     </div>

@@ -1,0 +1,109 @@
+/* ✅ Main Container */
+.doclist-container {
+  width: 100vw;
+  margin-top: 8vh;
+  background-color: #e3f2fd;
+  padding: 20px;
+}
+
+/* ✅ Grid Layout for Doctors */
+.doclist-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 Cards per Row */
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin-left: 5vw;
+}
+
+/* ✅ Doctor Card Styling */
+.doc-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  width: 100%;
+  max-width: 300px;
+  background: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.doc-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ✅ Doctor Name */
+.doc-name {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* ✅ Reason */
+.doc-reason {
+  font-size: 14px;
+  font-style: italic;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+/* ✅ Buttons in a Single Row */
+.button-group {
+  display: flex;
+  justify-content: space-between; /* ✅ Ensures buttons are in a single row */
+  width: 100%;
+  gap: 10px; /* ✅ Space between buttons */
+  margin-top: 10px;
+}
+
+/* ✅ Accept Button */
+.accept-btn {
+  flex: 1; /* ✅ Makes button take equal space */
+  background-color: #28a745 !important;
+}
+
+/* ✅ Reject Button */
+.reject-btn {
+  flex: 1; /* ✅ Makes button take equal space */
+  background-color: #dc3545 !important;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 1024px) {
+  .doclist-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 Columns */
+  }
+}
+
+@media (max-width: 768px) {
+  .doclist-grid {
+      grid-template-columns: repeat(1, 1fr); /* 1 Column */
+  }
+  .doc-card {
+      max-width: 70%;
+      margin: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .doclist-grid {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 320px) {
+  .doclist-grid {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .doc-card{
+    padding-left: 40px;
+    width: 100%;
+    max-width: 350px;
+    padding-right: 40px;
+  }
+}

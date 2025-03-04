@@ -1,0 +1,113 @@
+/* ✅ Full Page Centered Container */
+.form-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* ✅ Background Image for Hospital Theme */
+.UserDoctorListRegPage-container {
+    background-image: url(../../assets/hospital_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ✅ Back Button Styling */
+.back-btn-1 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white !important;
+    color: black;
+    border: none !important;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+}
+.back-btn-1:hover {
+    background-color: #7E5CAD !important;
+    color: white !important;
+    border: 2px solid #7E5CAD !important;
+    font-weight: bold;
+}
+
+/* ✅ Form Styling */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 600px !important;
+    overflow-y: auto;
+}
+
+.UserDoctorListRegPage-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* ✅ Input Fields */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* ✅ Button */
+.submit-btn {
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+.submit-btn:hover {
+    background: #0056b3;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 425px) {
+    .form-container {
+        width: 90%;
+        min-width: 280px !important;
+        height: 500px !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .form-container {
+        width: 80%;
+        max-width: 450px;
+        height: 550px !important;
+    }
+}

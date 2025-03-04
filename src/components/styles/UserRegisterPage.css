@@ -1,0 +1,84 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+    /* background-image: url(../../assets/reg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; Ensures proper centering */
+  }
+  
+  .register-card {
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  .register-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-field {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .register-button {
+    background-color: #7E5CAD !important;
+    color: white !important;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .register-button:hover {
+    background-color: white !important;
+    color: #7E5CAD !important;
+    border: 2px solid #7E5CAD;
+  }
+  
+  /* .login-link {
+    margin-top: 15px;
+    font-size: 14px !important;
+    cursor: pointer;
+  } */
+  
+  .login-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .login-link-1 {
+    margin-top: 17px !important;
+    font-size: 14px;
+    cursor: pointer;
+    color: #7E5CAD !important;
+  }
+  
+  .login-link-1:hover {
+    text-decoration: underline;
+  }

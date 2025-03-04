@@ -22,7 +22,7 @@ export function AdLoginPage() {
     const validPassword = "admin123";
 
     if (formData.email === validEmail && formData.password === validPassword) {
-      alert("Login successful!");
+      alert("Admin Login successful!");
       navigate("/addashboard");
     } else {
       alert("Insert the correct Email and Password");

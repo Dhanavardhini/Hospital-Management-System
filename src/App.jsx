@@ -9,6 +9,13 @@ import ManageDoctor from './components/Admin/ManageDoctors';
 import PatientRecord from './components/Admin/PatientRecord';
 import Adappointment from './components/Admin/Adappointment';
 import DocLogin from './components/doctor/DocLogin';
+import DocDashboard from './components/doctor/DocDashboard';
+import UserLogin from './components/user/UserLogin';
+import UserRegister from './components/user/UserRegister';
+import UserDashboard from './components/user/UserDashboard';
+import UserDoctorList from './components/user/UserDoctorList';
+import UserDoctorListReg from './components/user/UserDoctorListReg';
+import UserViewApp from './components/user/UserViewApp';
 
 
 const routes = [
@@ -21,11 +28,14 @@ const routes = [
   { path: '/appointment-history', element: <Adappointment/> },
   // ------------------------
   { path: '/doctorlogin', element: <DocLogin/> },
-  // { path: '/user-register', element: <Register/> },
-  // { path: '/user-dashboard', element: <UserDashboard/> },
-  // { path: '/userbooklist', element: <UserBookList/> },
-  // { path: '/userbooklistreg', element: <UserBookListReg/> },
-  // { path: '/return-book', element: <UserReturnBook/> },
+  { path: '/doctor-dashboard', element: <DocDashboard/> },
+  // ------------------------
+  { path: '/userlogin', element: <UserLogin/> },
+  { path: '/user-register', element: <UserRegister/> },
+  { path: '/userdashboard', element: <UserDashboard/> },
+  { path: '/doctors-list', element: < UserDoctorList/> },
+  { path: '/doctors-list-reg', element: < UserDoctorListReg/> },
+  { path: '/view-appointments', element: <  UserViewApp/> },
 ];
 export default function App() {  
   return (

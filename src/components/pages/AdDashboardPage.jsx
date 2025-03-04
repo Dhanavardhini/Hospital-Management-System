@@ -6,7 +6,7 @@ export default function AdDashboardPage() {
     const cardData = [
         { title: 'Total Doctors', count: 4 },
         { title: 'Took Patient', count: 5 },
-        { title: 'Total Appointment', count: 3 },
+        { title: 'Total Number of Appointment', count: 3 }, { title: 'Today Appointment', count: 3 },
     ];
 
     return (
@@ -14,11 +14,8 @@ export default function AdDashboardPage() {
             <AdSidenav />
             <div className="AdDashboardPage-container">
                 <div className="row g-3">
-                    {cardData.map((card, index) => (
-                        <div 
-                            key={index} 
-                            className={`col-md-6 ${card.title === 'Total Appointment' ? 'center-card' : ''}`}
-                        >
+                {cardData.map((card, index) => (
+                        <div key={index} className=" col-md-6">
                             <div className="card text-center p-3">
                                 <h5 className="card-title">{card.title}</h5>
                                 <p className="card-text-1">{card.count}</p>

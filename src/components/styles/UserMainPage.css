@@ -1,0 +1,221 @@
+/* ✅ Default Styling */
+.usermainpage-contain {
+    background-color: #bfa9df !important;
+    margin-top: 7vh !important;
+    height: 83vh !important;
+  }
+  
+  
+  /* Hide Scrollbars
+  .usermainpage-contain::-webkit-scrollbar,
+  .subcontain::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+  
+  .usermainpage-contain {
+    scrollbar-width: none; /* Firefox */
+    /* -ms-overflow-style: none; IE/Edge */
+  /* } */ 
+  
+  /* ✅ Card Styling */
+  .card {
+    border-radius: 10px;
+    max-height: 400px !important; /* Adjust height */
+    overflow-y: auto; /* Enable vertical scroll */
+  }
+  
+  .card-title {
+    font-size: 25px;
+  }
+  .btn{
+    background-color: #572a9c !important;
+    color:white !important;
+  }
+  .btn:hover{
+    background-color: white !important;
+    color: #572a9c !important;
+    border: 2px solid  #572a9c !important;
+  }
+  .card-text {
+    font-size: 15px !important;
+  }
+  
+  /* Ensure image fits properly */
+  .card-body img {
+    max-height: 200px !important;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  /* ✅ Responsive: 1024px to 1040px (Full Card Cover) */
+  /* ✅ Fix for 1024px - 1040px */
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .usermainpage-contain {
+      background-color: #bfa9df;
+      margin-top: 10vh;
+      min-height: 90vh !important; /* Ensure content fits dynamically */
+    }
+  
+    .container-fluid {
+      padding-top: 18vh !important;
+    }
+    .subcontain {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center; /* Ensure content aligns properly */
+    }
+  
+    .card {
+      width: 100% !important; /* Ensure full width */
+      min-height: none !important; /* Remove height restrictions */
+      height: auto !important; /* Allow natural height */
+    }
+  
+    .card-body img {
+      max-height: 150px !important; /* Increase image size */
+    }
+  
+    .card-footer {
+      padding-bottom: 15px; /* Add space for button visibility */
+    }
+  }
+  
+  @media (min-width: 426px) and (max-width: 767px) {
+    .usermainpage-contain {
+      background-color: #bfa9df;
+      margin-top: 5vh !important;
+      height: 100vh;
+    }
+  
+    .container-fluid {
+      padding-top: 8vh !important;
+    }
+  
+   
+    .subcontain {
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center;
+    }
+  
+    .card {
+      width: 100% !important; /* Fit screen width */
+      max-height: 140px !important; /* Adjust for small screens */
+      margin-bottom: 5px !important;
+    }
+  
+    .card-body img {
+      max-height: 111px !important;
+    }
+  
+    .card-2 {
+      max-height: 182px !important;
+    }
+  
+    .card-1 {
+      max-height: 150px !important;
+    }
+  
+    .card-title {
+      font-size: 20px !important;
+    }
+  
+    .card-text {
+      font-size: 14px !important;
+    }
+  
+    .btn {
+      font-size: 14px;
+      padding: 5px 10px !important;
+    }
+    .card-footer {
+      padding: 10px !important;
+    }
+  
+  }
+  
+  
+  /* ✅ Responsive: Mobile (425px to 320px) */
+  @media (max-width: 425px) {
+    .usermainpage-contain {
+      background-color: #bfa9df;
+      height: 77vh !important;
+    }
+  
+    .container-fluid {
+      padding-top: 5vh;
+    }
+  
+    .subcontain {
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center;
+    }
+  
+    .card {
+      width: 100% !important; /* Ensure full width */
+      min-height: none !important; /* Remove height restrictions */
+      height: auto !important; /* Allow natural height */
+    }
+  
+  
+    .card-body img {
+      max-height: 111px !important;
+    }
+  /* 
+    .card-2 {
+      max-height: 182px !important;
+    }
+  
+    .card-1 {
+      max-height: 135px !important;
+    } */
+  
+    .card-title {
+      font-size: 20px !important;
+    }
+  
+    .card-text {
+      font-size: 14px !important;
+    }
+  
+    .btn {
+      font-size: 14px;
+      padding: 5px 10px !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .usermainpage-contain {
+      background-color: #bfa9df;
+      margin-top: 10vh !important;
+      min-height: 90vh; /* Ensure content fits dynamically */
+    }
+  
+    .container-fluid {
+      padding-top: 8vh !important;
+    }
+    .subcontain {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center; /* Ensure content aligns properly */
+    }
+  
+    .card {
+      width: 100% !important; /* Ensure full width */
+      min-height: none !important; /* Remove height restrictions */
+      height: auto !important; /* Allow natural height */
+    }
+  
+    .card-body img {
+      max-height: 150px !important; /* Increase image size */
+    }
+  
+  
+    .card-footer {
+      padding-bottom: 15px; /* Add space for button visibility */
+    }
+  }
+  
