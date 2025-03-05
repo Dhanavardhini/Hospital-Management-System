@@ -8,7 +8,7 @@ export default function ManageDoctorPage() {
       id: 1,
       doctorId: "D101",
       name: "Dr. John Smith",
-      specialization: "Cardiologist",
+      specialist: "Cardiologist",
       experience: "10 Years",
       email: "johnsmith@example.com",
       passward:"123",
@@ -22,7 +22,7 @@ export default function ManageDoctorPage() {
       id: 2,
       doctorId: "D102",
       name: "Dr. Emily Johnson",
-      specialization: "Dermatologist",
+      specialist: "Dermatologist",
       experience: "8 Years",
       email: "emilyjohnson@example.com",
       passward:"123",
@@ -35,7 +35,7 @@ export default function ManageDoctorPage() {
       id: 3,
       doctorId: "D103",
       name: "Dr. Michael Brown",
-      specialization: "Orthopedic Surgeon",
+      specialist: "Orthopedic Surgeon",
       experience: "12 Years",
       email: "michaelbrown@example.com",
       passward:"123",
@@ -57,7 +57,7 @@ export default function ManageDoctorPage() {
                 <th>S.No</th>
                 <th>Doctor ID</th>
                 <th>Name</th>
-                <th>Specialization</th>
+                <th>Specialist</th>
                 <th>Experience</th>
                 <th>Email</th> 
                 <th>Passward</th>
@@ -72,7 +72,7 @@ export default function ManageDoctorPage() {
                   <td>{doctor.id}</td>
                   <td>{doctor.doctorId}</td>
                   <td>{doctor.name}</td>
-                  <td>{doctor.specialization}</td>
+                  <td>{doctor.specialist}</td>
                   <td>{doctor.experience}</td>
                   <td>{doctor.email}</td>
                   <td>{doctor.passward}</td>

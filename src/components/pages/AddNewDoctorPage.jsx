@@ -17,13 +17,13 @@ export default function AddNewDoctorPage() {
             </div>
 
             <div className="form-group">
-              <label>Specialization</label>
-              <input type="text" placeholder="Enter specialization (e.g., Cardiologist)" required />
+              <label>Specialist</label>
+              <input type="text" placeholder="Enter Specialist (e.g., Cardiologist)" required />
             </div>
 
             <div className="form-group">
               <label>Years of Experience</label>
-              <input type="number" placeholder="Enter experience in years" required />
+              <input type="text" placeholder="Enter experience in years" required />
             </div> 
             
             <div className="form-group">
@@ -38,7 +38,7 @@ export default function AddNewDoctorPage() {
             
             <div className="form-group">
               <label>Contact No</label>
-              <input type="number" placeholder="Enter the Phone number" required />
+              <input type="text" placeholder="Enter the Phone number" required />
             </div>
 
             <div className="form-group">

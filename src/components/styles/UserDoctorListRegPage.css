@@ -100,7 +100,7 @@ input, select, textarea {
     .form-container {
         width: 90%;
         min-width: 280px !important;
-        height: 500px !important;
+        height: 400px !important;
     }
 }
 
@@ -108,6 +108,13 @@ input, select, textarea {
     .form-container {
         width: 80%;
         max-width: 450px;
-        height: 550px !important;
+        height: 450px !important;
+    }
+}
+@media (min-width:426px) and (max-width: 768px) {
+    .form-container {
+        width: 80%;
+        max-width: 450px;
+        height: 420px !important;
     }
 }

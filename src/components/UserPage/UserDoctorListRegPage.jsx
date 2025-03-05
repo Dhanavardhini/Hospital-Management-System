@@ -35,7 +35,8 @@ export default function UserDoctorListRegPage() {
          !formData.patientName || !formData.age || !formData.gender || !formData.phone || !formData.doctorName || 
         !formData.specialty || !formData.availability || !formData.symptoms || !formData.appointmentDate || 
         !formData.appointmentTime || !formData.paymentMethod) {
-      alert("All fields are required!");
+      alert("Your request has been submitted. Please wait for approval!");
+      navigate("/doctors-list");
       return;
     }
 
@@ -89,10 +90,10 @@ export default function UserDoctorListRegPage() {
               <input type="text" name="doctorName" placeholder="Enter Doctor's Name" onChange={handleChange} required />
             </div>
 
-            <div className="form-group">
-              <label>Specialty</label>
-              <input type="text" name="specialty" placeholder="Enter Specialty (e.g., Cardiologist)" onChange={handleChange} required />
-            </div>
+            {/* <div className="form-group">
+              <label>Specialist</label>
+              <input type="text" name="specialty" placeholder="Enter Specialist (e.g., Cardiologist)" onChange={handleChange} required />
+            </div> */}
 
             <div className="form-group">
               <label>Availability</label>
