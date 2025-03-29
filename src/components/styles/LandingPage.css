@@ -45,16 +45,6 @@
   font-size: 16px !important;
 }
 
-    /* Custom Button Styling */
-    /* .custom-button {
-      background-color:#7E5CAD !important ;
-      color: white !important;
-      border: 2px solid white !important;
-      padding: 8px 16px !important;
-      font-size: 14px !important;
-      border-radius: 5px !important;
-      transition: 0.3s ease-in-out !important;
-    } */
     .custom-button,.custom-button-1 {
       background-color: white !important;
       color: #FF4545 !important;

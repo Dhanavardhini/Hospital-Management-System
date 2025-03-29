@@ -7,7 +7,7 @@ function UserMainPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="usermainpage-contain">
+    <div className="usermainpage-contain">  
       <div className="container-fluid">
         <div className="row justify-content-center subcontain">
           
