@@ -1,12 +1,45 @@
-# React + Vite
+🏥 Hospital Management System
+A comprehensive Hospital Management System built using React.js, CSS, HTML, Bootstrap, and Material-UI (MUI). This system is designed to streamline hospital operations by efficiently managing patients, doctors, appointments, medical records, and administrative tasks in a user-friendly interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+👨‍⚕️ Admin Module
+Dashboard with real-time data and statistics
 
-Currently, two official plugins are available:
+Manage doctor profiles (add, update, delete)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Patient management (registration, updates)
 
-## Expanding the ESLint configuration
+Appointment scheduling and approval system
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+View and manage reports & billing
+
+Notifications and alerts system
+
+🧑‍🦱 Doctor Module
+View daily appointments and patient details
+
+Update patient diagnosis and medical history
+
+Manage prescriptions and treatment plans
+
+Patient record tracking
+
+👤 Patient Module
+Register and log in securely
+
+Book and manage appointments
+
+View medical history and reports
+
+Download prescriptions and invoices
+
+Contact doctor or admin for queries
+
+🛠️ Tech Stack
+Frontend: React.js
+
+Styling: CSS, HTML, Bootstrap 5, MUI (Material-UI)
+
+Routing: React Router DOM
+
+State Management: React useState, useEffect (with option to extend using Redux)
