@@ -42,4 +42,4 @@ Styling: CSS, HTML, Bootstrap 5, MUI (Material-UI)
 
 Routing: React Router DOM
 
-State Management: React useState, useEffect (with option to extend using Redux)
+State Management: React useState, useEffect
